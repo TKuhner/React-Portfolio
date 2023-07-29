@@ -15,7 +15,7 @@ const Landing = () => {
                 </div>
             {/* BUTTON */}
                 <div>
-                
+                    <SocialMediaIcons />
                 </div>
 
 
