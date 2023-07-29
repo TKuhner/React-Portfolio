@@ -16,9 +16,7 @@ const Navbar = () => {
                     <a href="" className="p-2">Resume</a>
                 </div>
             </div>
-            
         </nav>
-
     )
 };
 export default Navbar;
