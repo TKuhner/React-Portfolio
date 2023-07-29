@@ -1,13 +1,15 @@
 import Navbar from './components/Navbar';
 import Landing from './components/Landing';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 
 function App() {
 
   return (
-    <div className="app bg-blue-950">
+    <div className="app">
       <Router>
       <Navbar />
         <Routes>
