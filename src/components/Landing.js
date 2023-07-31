@@ -1,34 +1,21 @@
 import SocialMediaIcons from "./SocialMediaIcons";
 
-
-
 const Landing = () => {
   return (
-    <section
-      id="landing"
-    >
+    <section id="landing">
       {/* IMAGE */}
-      <div
-            
-          >
-            <img
-              alt="profile"
-             
-              src="../assets/profile-image.png"
-            />
-          </div>
+      <div id="landingImg">
+        <img alt="profile" src={require("../assets/profile-image.png")} />
+      </div>
 
       {/* TEXT */}
-      <div >
-        <p >
+      <div id="landingText">
+        <p id="nameP">
           Trevor{""}
-          <span
-          >
-            Kuhner
-          </span>
+          <span id="nameSpan">Kuhner</span>
         </p>
 
-        <p >
+        <p id="blurb">
           I am a recent computer science graduate with a passion for coding and
           problem-solving. Eager to embark on a career in software development,
           I am currently honing my skills through a rigorous coding bootcamp to
@@ -37,12 +24,12 @@ const Landing = () => {
           Java, Python, and JavaScript, as well as hands-on experience with
           databases, algorithms, and software development methodologies.
         </p>
-      </div>
-
       {/* BUTTON */}
       <div>
         <SocialMediaIcons />
       </div>
+      </div>
+
     </section>
   );
 };
