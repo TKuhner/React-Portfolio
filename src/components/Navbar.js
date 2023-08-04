@@ -8,10 +8,10 @@ const Navbar = () => {
         <h4>TK</h4>
             <div id="navLinks">
                 <Link to="/">About</Link>
-                <Link to="/skills">Skills</Link>
+                {/* <Link to="/skills">Skills</Link> */}
                 <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-                <a href="#">Resume</a>
+                {/* <Link to="/contact">Contact</Link> */}
+                <a href="../assets/TrevorKuhnerResume2023">Resume</a>
             </div>
         
       </div>
