@@ -20,10 +20,12 @@ body {
   line-height: 1.5;
   color: #333;
 }
-img {
+/* img {
   max-width: 100%;
   height: auto;
-}
+} */
+
+
 #contact {
   padding:0 12rem;
 }
@@ -49,6 +51,8 @@ img {
 #socialIcons a{
   padding: 0 10px;
 }
+
+
 
 #navbar{
   background-color: #fff;
@@ -162,15 +166,17 @@ img {
 }
 
 #projectsDiv {
+  font-family: 'Playfair Display', serif;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  width: 100%;
+  width: 80%;
   height: 100%;
   padding: 1%;
 }
+
 
 .project {
   width: 30%;
@@ -178,7 +184,13 @@ img {
   margin: 1%;
 }
 
+.projectA{
+  width:10rem;
+}
+
 #block1{
+  width: 10rem;
+
   flex:auto;
   justify-content: center;
   text-align: center;
@@ -191,7 +203,9 @@ img {
   
 }
 
+
 #block2{
+  width:10rem;
   flex:auto;
   justify-content: center;
   text-align: center;

@@ -1,29 +1,29 @@
 import { motion } from "framer-motion";
 
-const Project = ({ title }) => {
+// const Project = ({ title }) => {
 
-    const projectTitle = title.split(" ").join("-").toLowerCase();
+//     const projectTitle = title.split(" ").join("-").toLowerCase();
   
-    return (
-      <motion.div  >
-        <div>
-          <p >{title}</p>
-          <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-            porttitor accumsan tincidunt.
-          </p>
-        </div>
-        <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
-      </motion.div>
-    );
-  };
+//     return (
+//       <motion.div  >
+//         <div>
+//           <p >{title}</p>
+//           <p>
+//             Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
+//             porttitor accumsan tincidunt.
+//           </p>
+//         </div>
+//         <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+//       </motion.div>
+//     );
+//   };
 
 
   const Projects = () => {
     return (
       <section id="projects">
         {/* HEADINGS */}
-        <motion.div
+        {/* <motion.div
             id="projectsHeading"
           initial="hidden"
           whileInView="visible"
@@ -47,36 +47,47 @@ const Project = ({ title }) => {
             fames odio in at. At magna ornare dictum lectus. Purus massa morbi
             purus nec eget eleifend ut elit.
           </p>
-        </motion.div>
+        </motion.div> */}
   
         {/* PROJECTS */}
         <div id="projectsDiv">
-          <motion.div
+          {/* <motion.div
 
-            // variants={container}
+            // variants={}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
-          >
+          > */}
             {/* ROW 1 */}
             <div id="block1">
               BEAUTIFUL USER INTERFACES
             </div>
-            <Project classname="project" title="Project 1" />
-            <Project classname="project" title="Project 2" />
+            <div>
+
+          
+              <img id="conversa" src={require("../assets/Conversa.png")} alt="Conversa" />
+            
+            </div>
+            <div>
+              
+            </div>
+            
+              <img id="theFridge" src={require("../assets/TheFridge.png")} alt="the Fridge" />
+              
+
+            {/* <a><img /></a> */}
+            {/* <Project classname="Conversa" title="Project 1" />
+            <Project classname="project" title="Project 2" /> */}
+
   
             {/* ROW 2 */}
-            <Project classname="project" title="Project 3" />
-            <Project classname="project" title="Project 4" />
-            <Project classname="project" title="Project 5" />
-  
-            {/* ROW 3 */}
-            <Project classname="project" title="Project 6" />
-            <Project classname="project" title="Project 7" />
+            {/* <Project classname="project" title="Project 3" />
+            <Project classname="project" title="Project 4" /> */}
+
             <div id="block2">
               SMOOTH USER EXPERIENCE
             </div>
-          </motion.div>
+          {/* </motion.div> */}
         </div>
       </section>
     );
